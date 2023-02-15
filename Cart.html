@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shopping Cart </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" href="About.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="Contact.css">
+
+  <body>
+    <nav>
+      <ul id="MenuItems">
+          <td class="width2" colspan="3">
+              <a href="index.html"><button class="button1"><strong>Home</strong></button></a>&nbsp;
+              <a href="About.html"><button class="button1"><strong>About Us</strong></button></a>&nbsp;
+              <a href="shop.html"><button class="button1"><strong>Shop Now</strong></button></a>&nbsp;
+              <a href="Contact.html"><button class="button1"><strong>Contact Us</strong></button></a>&nbsp;
+          </td>
+
+      </ul>
+</nav>
+ 
+ <main>
+    <div class="container"> 
+   <h1> Shopping Cart</h1>
+  
+   <div id="alerts"></div>
+<div class="productcont">
+        <div class="product">
+            <h3 class="productname">50 cent</h3>
+           <img src="images/50centalbum.JPEG" width="100px">
+            <p class="price">£5.05</p>
+            <button class="addtocart">Add To Cart</button>
+        </div>
+        <div class="product">
+            <h3 class="productname">drake </h3>
+            <img src="images/DrakeScorpion.JPEG" width="100px">
+            <p class="price">£8.50</p>
+            <button class="addtocart">Add To Cart</button>
+        </div>
+        <div class="product">
+            <h3 class="productname">StarBoybyWeeknd</h3>
+            <img src="images/StarBoybyWeeknd.JPEG" width="100px">
+            <p class="price">£10.50</p>
+            <button class="addtocart">Add To Cart</button>
+        </div>
+
+        <div class="product">
+          <h3 class="productname">Kendrick</h3>
+          <img src="images/Kendrick Lamar  Good Kid, M.A.A.d City.JPEG" width="100px">
+          <p class="price">£10.50</p>
+          <button class="addtocart">Add To Cart</button>
+      </div>
+        </div>
+        <div class="cart-container">
+          <h2>Cart</h2>
+          <table>
+            <thead>
+              <tr>
+              <th><strong>Product</strong></th>
+              <th><strong>Price</strong></th>
+            </tr>
+            </thead>
+            <tbody id="carttable">
+            </tbody>
+          </table>
+          <hr>
+          <table id="carttotals">
+            <tr>
+              <td><strong>Items</strong></td>
+              <td><strong>Total</strong></td>
+            </tr>
+            <tr>
+              <td>x <span id="itemsquantity">0</span></td>
+             
+              <td>£<span id="total">0</span></td>
+            </tr></table>
+
+            
+          <div class="cart-buttons">  
+            <button id="emptycart">Empty Cart</button>
+            <button id="checkout">Checkout</button>
+          </div>
+        </div>
+</div>
+
+ </main>
+ 
+      
+
+        <script  src="script.js"></script> 
+        
+  </body>
+</html>

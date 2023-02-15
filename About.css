@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*------ fonts
+here is the fonts  i have been using for this page.------*/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+/*------body text
+this is the body text of about us  i have changed the sixe of the font to make it a more acessible to the user.------*/
+
+p{
+    color: #555;
+   font-size:x-large;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.collum-2{
+    flex-basis: 50%;
+    min-height: 300px;
+}
+.collum-2 img{
+    max-width: 100%;
+    padding: 50px  0; 
+}
+
+.collum-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin:  25px 0;
+}
+
+.button{
+    display: inline-block;
+    background: rgb(106, 168, 226);
+    color:  white;
+    padding: 8px 30px;
+    margin:  30px 0;
+    border-radius: 30px; 
+    transition: background 0.5s;
+   
+}
+.button:hover{
+    background: black;
+}
+.header{
+    background: radial-gradient(#fff,rgb(157, 230, 243));
+    
+}
+.header .row{
+   margin-top: 70px;
+}
+.categories{
+    margin:  70px 0;
+}
+.collum3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+
+.collum3 img{
+    width: 100%;
+}
+
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+.collum4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200Px;
+    margin-bottom: 50px;
+    
+    
+    transition: tansform 0.5s;
+
+}
+
+.collum4 img{
+    width: 100%;
+    
+}
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+
+.title::after{
+    content: '';
+    background: #3b90ff;
+    width: 80;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform:translateX(-50%) ;
+
+}
+
+
+h4{
+   color: #555;
+   font-weight: normal; 
+}
+
+.collum4 P{
+     font-size: 20px;
+}
+
+.rating .fa{
+      color: #6f8dee;
+      transform: translateY(-5px);
+
+}
+/*------offer------*/
+
+.offer{
+    background: radial-gradient(#fff,rgb(157, 230, 243));
+    margin-top: 80px;
+    padding: 30px 0;
+
+
+}
+.collum-2 .offer-img{
+
+
+    padding: 50px;
+
+
+}
+
+small{
+    color: #555;
+}
+
+/*------testimonial------*/
+.testimonial{
+    padding-top: 100px;
+
+}
+.testimonial .collum3{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba (0,0,0,0,1);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.testimonial .collum3 img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.testimonial .collum3:hover{
+    transform: translateY(-10px);
+}
+
+.fa.fa-quote-left{
+    font-size: 34px;
+    color: #6f8dee;
+
+}
+
+.collum3 p{
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777;
+
+
+}
+
+.testimonial .collum3 h3{
+    font-weight: 600;
+    color: #555;
+    font-size: 16px;
+
+}
+/*------brands------*/
+.brands{
+    margin: 100px auto;
+}
+.collum5{
+    width: 160;
+}
+.collum5 img{
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.collum5 img :hover{
+    filter: grayscale(0);
+}
+
+/*------menu icon------*/
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+
+
+
+/*------removing the white space------*/
+body{ margin: 0;
+    padding: 0;
+
+  }
+
+  /*------dropdown menu/ all products------*/
+
+    .row2{
+        justify-content:space-between;
+        margin: 100px 50px;
+    }
+select{
+    border: 1px solid #6f8dee;
+    padding: 5px;
+}
+select:focus{
+    outline: none;
+}
+  /*------pagebutton------*/
+
+.pagebutton{
+    margin: 0 auto 80px;
+}
+
+.pagebutton span{
+    display: inline-block;
+    border: 1px solid #6f8dee;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+
+
+.pagebutton span:hover{
+    background: #6f8dee;
+    color: #fff;
+}
+
+
+  /*------Product details------*/
+.single-product{
+    margin-top: 80px;
+}
+
+.single-product .collum-2 img{
+    padding: 0;
+    
+}
+
+.single-product .collum-2{
+    padding: 20px;
+}
+
+
+
+.single-product h4{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+.single-product select{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+}
+.single-product input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid #6f8dee;
+}
+input:focus{
+    outline: none;
+}
+
+.single-product .fa{
+    color: #6f8dee;
+    margin-left: 10px;
+}
+
+.small-img-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.small-img-collum{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+
+  /*------media query for menu------*/
+  @media only screen and (max-width:800px) {
+     nav ul{
+        position: absolute;
+        top: 70px;
+        left:0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transform:max-height 0.5s ;
+     }
+  }
+
+  nav ul li{
+    display: block;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+    nav ul li a{
+        color:#fff;
+    }
+
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+
+    
+   
+
+
+     /*------media query for less than 600 screen size------*/
+     @media only screen and (max-width:600px){
+        .row{
+           text-align: center;
+        
+        }
+        .collum-2,.collum-3,.collum-4{
+            flex-basis: 100%;
+
+        }
+
+        .single-product{
+            text-align: left;
+        }
+        .single-product.collum-2{
+            padding: 20px 0;
+
+        }
+
+        .single-product h1{
+            font-size: 26px;
+            line-height: 32px;
+        }
+
+        .cart-info p{
+            display: none;
+        }
+
+
+     }
